@@ -10,5 +10,5 @@ build: [
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/LegacyField"]
 depends: [
   "coq" {>= "8.5"}
-  "coq:contrib:legacy-ring"
+  "coq:legacy-ring"
 ]
